@@ -1,0 +1,16 @@
+{
+    "name": "Response_get",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "description":"レスポンスデータの受け取り",
+    "background":{
+        "service_worker":"background.js"
+    },
+    "action":{},
+    "permissions": [
+      "tabs",
+      "activeTab",
+      "debugger",
+      "downloads"
+    ]
+  }
