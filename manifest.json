@@ -1,8 +1,8 @@
 {
-    "name": "Response_get",
+    "name": "NetworkResponse_get",
     "version": "1.0.0",
     "manifest_version": 3,
-    "description":"レスポンスデータの受け取り",
+    "description":"ネットワークレスポンスデータの受け取りを行います",
     "background":{
         "service_worker":"background.js"
     },
